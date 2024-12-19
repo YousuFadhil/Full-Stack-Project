@@ -1,0 +1,359 @@
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+/* Forms Styles */
+.div-form {
+  border: 1px solid #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.div-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.div-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Posts Styles */
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.postMsg {
+  padding: 10px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.postedBy {
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #555;
+}
+
+.postByName {
+  font-weight: bold;
+}
+
+.postDate {
+  font-size: 12px;
+  color: #999;
+}
+
+/* General Utility Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.error {
+  color: red;
+  font-size: small;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+/* الصفحة العامة */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* خلفية خفيفة */
+}
+
+/* شعار الصفحة */
+.login-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* الحقول */
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  height: 40px;
+  font-size: 14px;
+}
+
+/* الزر */
+.btn-primary {
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* النص السفلي */
+.smalltext {
+  font-size: 14px;
+  color: #555;
+}
+
+.smalltext a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.smalltext a:hover {
+  text-decoration: underline;
+}
+/* الصفحة العامة */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* خلفية خفيفة */
+}
+
+/* الشعار */
+.register-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* الحقول */
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  height: 40px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* الزر */
+.btn-primary {
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* النص السفلي */
+.smalltext {
+  font-size: 14px;
+  color: #555;
+}
+
+.smalltext a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.smalltext a:hover {
+  text-decoration: underline;
+}
+/* تمرير النموذج إلى المنتصف */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+/* الحاوية الرئيسية */
+.posts-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* جعل المحتوى في الأعلى */
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 50px; /* إضافة مسافة علوية */
+}
+
+/* محتوى المنشورات */
+.posts-content {
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* العناوين */
+.text-primary {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* الجدول */
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* حقل البحث */
+.form-control {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.min-vh-100 {
+  min-height: 100vh; /* يجعل الحاوية تأخذ الارتفاع الكامل للصفحة */
+}
+.small-image {
+  width: 100px; /* العرض */
+  height: auto; /* يحافظ على النسبة */
+}
